@@ -1,5 +1,5 @@
 
-def GenerateEvenDifferencecSquares():
+def GenerateEvenDifferenceSquares():
     for i in range(1, 100):
         for k in range(1, 100):
             a = 2*i*k
@@ -7,7 +7,7 @@ def GenerateEvenDifferencecSquares():
             c = i*k**2+i
             print(i, k, "  ", a,b,c)
 
-def GenerateOddDifferencecSquares():
+def GenerateOddDifferenceSquares():
     for i in range(0, 100):
         for k in range(0, 100):
             a = (4*i+2)*k-(2*i+1)
@@ -16,6 +16,6 @@ def GenerateOddDifferencecSquares():
             print(i, k, "  ", a,b,c)
 
 print("Even Difference Squares")
-GenerateEvenDifferencecSquares()
+GenerateEvenDifferenceSquares()
 print("Odd Difference Squares")
-GenerateOddDifferencecSquares()
+GenerateOddDifferenceSquares()
